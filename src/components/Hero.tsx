@@ -1,5 +1,5 @@
 
-import { Phone, Email, Linkedin } from "lucide-react";
+import { Phone, Mail, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
@@ -33,7 +33,7 @@ export const Hero = () => {
               className="flex items-center gap-2 hover:scale-105 transition-transform"
               onClick={() => window.open("mailto:pallatej7@gmail.com")}
             >
-              <Email className="h-4 w-4" />
+              <Mail className="h-4 w-4" />
               pallatej7@gmail.com
             </Button>
             

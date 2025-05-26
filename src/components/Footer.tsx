@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Email } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -27,7 +27,7 @@ export const Footer = () => {
               href="mailto:pallatej7@gmail.com"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              <Email className="h-6 w-6" />
+              <Mail className="h-6 w-6" />
             </a>
           </div>
           
