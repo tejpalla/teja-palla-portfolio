@@ -18,9 +18,11 @@ export const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <div className="animate-fade-in">
-            {/* Glowing name with proper text rendering */}
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-white via-cyan-400 to-blue-400 bg-clip-text text-transparent mb-6 animate-scale-in leading-tight tracking-wide">
-              <span className="block">Sai Teja Palla</span>
+            {/* Name with better font rendering */}
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-scale-in leading-relaxed tracking-normal">
+              <span className="bg-gradient-to-r from-white via-cyan-400 to-blue-400 bg-clip-text text-transparent">
+                Sai Teja Palla
+              </span>
             </h1>
             
             {/* Subtitle with neon effect */}
